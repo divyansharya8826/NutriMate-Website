@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+{% block title %}
+  Home
+{% endblock title %}
+{% block body %}
+  <div class="container-fluid px-0">
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="../static/img/shraga-kopstein-slZ3aWzrqMM-unsplash.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../static/img/engin-akyurt-yM9xr_nAEdc-unsplash.jfif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../static//img/engin-akyurt-vpiPVLozjbM-unsplash.jfif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <h1 class="my-4 text-center">Select from these different diets</h1>
+  <div class="container my-4">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/nadine-primeau-KD3XqquHlcc-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>The Keto Diet</strong> is a low-carb, high-fat diet that aims to put your body into a state of ketosis, where it burns fat for energy instead of carbohydrates.....</p>
+            <form class="d-flex justify-content-between align-items-center" action="/" method="post">
+              <div class="btn-group">
+                <button type="button" name="keto" id="keto" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/pulsitos-com-eAzOTA9ZTlA-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>The Mediterranean Diet</strong> emphasizes plant-based foods like fruits, vegetables, whole grains, nuts, and olive oil, alongside moderate amounts of.....</p>
+            <form class="d-flex justify-content-between align-items-center" action="/" method="post">
+              <div class="btn-group">
+                <button type="button" name="mediterranean" id="mediterranean" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/brooke-lark-jUPOXXRNdcA-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>A High-Protein Diet</strong> focuses on increasing protein intake while moderating carbohydrates and fats. It typically includes lean meats, poultry, fish, eggs,.....</p>
+            <form class="d-flex justify-content-between align-items-center" action="/" method="post">
+              <div class="btn-group">
+                <button type="button" name="protein" id="protein" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/nadine-primeau-KD3XqquHlcc-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>A High-Fiber Diet</strong> prioritizes foods rich in dietary fiber, such as fruits, vegetables, whole grains, nuts, and seeds. It promotes digestive health, regulates.....</p>
+            <form class="d-flex justify-content-between align-items-center" action="/" method="post">
+              <div class="btn-group">
+                <button type="button" name="fiber" id="fiber" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/nadine-primeau-l5Mjl9qH8VU-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>The Paleo Diet</strong> mimics the dietary habits of ancient humans, focusing on foods presumed to be available to Paleolithic humans. It emphasizes lean meats,.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/nadine-primeau--ftWfohtjNw-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>The Vegan Diet</strong> excludes all animal products, including meat, dairy, eggs, and honey, focusing instead on plant-based foods like fruits,.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/madalyn-cox-VX7pakgrF8o-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>A Gluten-free Diet</strong> eliminates gluten, a protein found in wheat, barley, and rye, and products made from these grains. It is essential for managing celiac.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/sonny-mauricio-yhc4pSbl01A-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>A Low-Carb Diet</strong> restricts carbohydrates, primarily found in grains, starchy vegetables, and sugary foods. It emphasizes protein, healthy fats, and non.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/eaters-collective-12eHC6FxPyg-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>A Balanced Diet</strong> includes a variety of foods in appropriate proportions to provide essential nutrients for optimal health. It consists of fruits, vegetables,.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img src="../static/img/brooke-lark-nTZOILVZuOg-unsplash.jfif" class="d-block w-100" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>An Anti-inflammatory Diet</strong> focuses on foods that reduce inflammation in the body, which is linked to chronic diseases like heart disease and arthritis. It.....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary mt-3">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock body %}
