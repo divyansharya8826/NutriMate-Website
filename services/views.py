@@ -1,4 +1,3 @@
-from curses import BUTTON1_CLICKED
 from django.shortcuts import render
 
 # dic = {
